@@ -6,6 +6,14 @@
 
 
 /**
+ * Create cache
+ */
+Cache* create_cache(int max_size, int hashsize)
+{
+    
+}
+
+/**
  * Allocate a cache entry
  */
 CacheEntry* alloc_entry(char* path, char* content_type, void* content, int content_length)

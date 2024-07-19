@@ -1,6 +1,8 @@
 #ifndef HASHTABLE_H
 #define HASHTABLE_H
 
+#pragma once
+
 typedef struct HashTable {
     int size;
     int num_entries;

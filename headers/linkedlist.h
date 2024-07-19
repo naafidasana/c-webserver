@@ -1,6 +1,8 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
+#pragma once
+
 typedef struct ListNode {
     void* data;
     struct ListNode* next;

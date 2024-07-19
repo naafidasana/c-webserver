@@ -1,6 +1,7 @@
 #ifndef FILE_H
 #define FILE_H
 
+#pragma once
 
 typedef struct file_data {
     int size;
