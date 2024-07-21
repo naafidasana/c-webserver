@@ -32,7 +32,7 @@ char* get_mime_type(char* fname)
     ext++;
     strlower(ext);
 
-    if (strcmp(ext, "html") || strcmp(ext, "htm") == 0)
+    if (strcmp(ext, "html") == 0 || strcmp(ext, "htm") == 0)
         return "text/html";
     if (strcmp(ext, "css") == 0)
         return "text/css";
@@ -40,7 +40,7 @@ char* get_mime_type(char* fname)
     if (strcmp(ext, "txt") == 0)
         return "text/plain";
 
-    if (strcmp(ext, "jpeg") || strcmp(ext, "jpg") == 0)
+    if (strcmp(ext, "jpeg") == 0 || strcmp(ext, "jpg") == 0)
         return "image/jpg";
 
     if (strcmp(ext, "gif") == 0)
